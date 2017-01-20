@@ -17,7 +17,7 @@ This will create a directory called `snippets` which will contain all of the sni
 
 That's it! It's that easy.
 
-Enjoy!
+Contributions and suggestions welcomed!!!
 
 
 ## What's in the box
