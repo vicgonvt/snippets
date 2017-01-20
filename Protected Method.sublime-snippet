@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-protected function ${1:[METHOD_NAME]}()
+protected function ${1:[METHOD_NAME]}(${2})
 {
-	${2://}
+	${3://}
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
