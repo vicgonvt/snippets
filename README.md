@@ -83,3 +83,47 @@ For those of us that use Laravel, dd() is missed when working outside the framew
 ```php
 die(var_dump($[VAR]));
 ```
+
+### Laravel Relationships
+
+Laravel relationships are easy to write and now they take a second or two. Big thank you to Adam Wathan for the original idea on these. Modified a little bit for my personal preference. I mostly label my relationships to make sense regardless of my model's name. There is a stop at the method name, a second, optional, stop for the model's name and in some cases another stop to specify the table's field name.
+
+#### BelongsTo
++ Shortcut: `belt`
+
+```php
+public function relationship()
+{
+    return $this->belongsTo(Relationship::class, 'field_name');
+}
+```
+
+### BelongsToMany
++ Shortcut: `belm`
+
+```php
+public function relationship()
+{
+    return $this->belongsToMany(Relationship::class, 'field_name');
+}
+```
+
+### HasMany
++ Shortcut: `hasm`
+
+```php
+public function relationship()
+{
+    return $this->hasMany(Relationship::class, 'field_name');
+}
+```
+
+### HasOne
++ Shortcut: `haso`
+
+```php
+public function relationship()
+{
+    return $this->hasOne(Relationship::class);
+}
+```
