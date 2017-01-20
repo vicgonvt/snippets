@@ -1,8 +1,8 @@
 # Sublime Text - Snippets
 
-These are the snippets that I use in all of my installations of Sublime Text.
+These are the snippets that I use in all of my installations of Sublime Text. Geared towards the person workin with Laravel and its environment.
 
-## Installation
+# Installation
 
 To install the snippets in your sublime, you will have to clone this repo into your own computer(s).
 
@@ -20,9 +20,9 @@ That's it! It's that easy.
 Contributions and suggestions welcomed!!!
 
 
-## What's in the box
+# What's in the box
 
-### PHP Class Methods
+## PHP Class Methods
 
 #### Public Method
 + Shortcut: `met`
@@ -74,7 +74,7 @@ public function __construct()
 }
 ```
 
-### PHP Helpers
+## PHP Helpers
 
 #### Die & Dump
 + Shortcut: `dd`
@@ -84,7 +84,7 @@ For those of us that use Laravel, dd() is missed when working outside the framew
 die(var_dump($[VAR]));
 ```
 
-### Laravel Views
+## Laravel Views
 
 #### Blade Variable Echo
 
@@ -94,7 +94,7 @@ Quick helper for outputting variables in blade templates.
 {{ $var }}
 ```
 
-### Laravel Relationships
+## Laravel Relationships
 
 Laravel relationships are easy to write and now they take a second or two. Big thank you to Adam Wathan for the original idea on these. Modified a little bit for my personal preference. I mostly label my relationships to make sense regardless of my model's name. There is a stop at the method name, a second, optional, stop for the model's name and in some cases another stop to specify the table's field name.
 
@@ -108,7 +108,7 @@ public function relationship()
 }
 ```
 
-### BelongsToMany
+#### BelongsToMany
 + Shortcut: `belm`
 
 ```php
@@ -118,7 +118,7 @@ public function relationship()
 }
 ```
 
-### HasMany
+#### HasMany
 + Shortcut: `hasm`
 
 ```php
@@ -128,7 +128,7 @@ public function relationship()
 }
 ```
 
-### HasOne
+#### HasOne
 + Shortcut: `haso`
 
 ```php
