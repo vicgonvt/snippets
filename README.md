@@ -138,7 +138,20 @@ public function relationship()
 }
 ```
 
-### PHPUnit
+# Laravel Models
+
+#### Fillable Fields Array
++ Shortcut: `fil`
+
+```php
+/**
+ * @var array
+ */
+protected $fillable = ['FIELD'];
+
+```
+
+## PHPUnit
 
 #### Test Method
 
