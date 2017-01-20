@@ -8,7 +8,7 @@ To install the snippets in your sublime, you will have to clone this repo into y
 
 In your terminal, run the following command
 
-```
+```sh
 cd Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 git clone git@github.com:vicgonvt/snippets.git
 ```
@@ -22,3 +22,44 @@ Enjoy!
 
 ## What's in the box
 
+### PHP Class Methods
+
+#### Public Method
++ Shortcut: `met`
+
+```php
+public function [METHOD_NAME]()
+{
+    //
+}
+```
+
+#### Private Method
++ Shortcut: `pmet`
+
+```php
+private function [METHOD_NAME]()
+{
+    //
+}
+```
+
+#### Protected Method
++ Shortcut: `prmet`
+
+```php
+protected function [METHOD_NAME]()
+{
+    //
+}
+```
+
+#### Public Static Method
++ Shortcut: `smet`
+
+```php
+public static function [METHOD_NAME]()
+{
+    //
+}
+```
