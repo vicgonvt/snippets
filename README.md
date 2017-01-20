@@ -9,7 +9,7 @@ To install the snippets in your sublime, you will have to clone this repo into y
 In your terminal, run the following command
 
 ```sh
-cd Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 git clone git@github.com:vicgonvt/snippets.git
 ```
 
