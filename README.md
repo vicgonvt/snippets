@@ -84,6 +84,16 @@ For those of us that use Laravel, dd() is missed when working outside the framew
 die(var_dump($[VAR]));
 ```
 
+### Laravel Views
+
+#### Blade Variable Echo
+
+Quick helper for outputting variables in blade templates.
+
+```php
+{{ $var }}
+```
+
 ### Laravel Relationships
 
 Laravel relationships are easy to write and now they take a second or two. Big thank you to Adam Wathan for the original idea on these. Modified a little bit for my personal preference. I mostly label my relationships to make sense regardless of my model's name. There is a stop at the method name, a second, optional, stop for the model's name and in some cases another stop to specify the table's field name.
@@ -125,5 +135,18 @@ public function relationship()
 public function relationship()
 {
     return $this->hasOne(Relationship::class);
+}
+```
+
+### PHPUnit
+
+#### Test Method
+
+Quick helper for scaffolding a new test method.
+
+```php
+public function testName()
+{
+    //
 }
 ```
