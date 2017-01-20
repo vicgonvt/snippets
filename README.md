@@ -73,3 +73,13 @@ public function __construct()
     //
 }
 ```
+
+### PHP Helpers
+
+#### Die & Dump
++ Shortcut: `dd`
+For those of us that use Laravel, dd() is missed when working outside the framework. Here is a workaround.
+
+```php
+die(var_dump($[VAR]));
+```
