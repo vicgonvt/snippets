@@ -63,3 +63,13 @@ public static function [METHOD_NAME]()
     //
 }
 ```
+
+#### Construct Method
++ Shortcut: `cmet`
+
+```php
+public function __construct()
+{
+    //
+}
+```
