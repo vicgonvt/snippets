@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Route::get('/${1:[URL]}', '${2:[CONTROLLERNAME]}Controller@${3:[METHODNAME]}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rget</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
